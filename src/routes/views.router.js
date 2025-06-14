@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Router } from 'express'
 import passport from 'passport'
 import ProductModel from '../dao/models/product.model.js'
@@ -29,3 +30,14 @@ router.get('/profile', passport.authenticate('jwt', { session: false }), (req, r
 })
 
 export default router
+=======
+import { Router } from 'express';
+
+const router = Router();
+
+router.get('/', (req, res) => {
+    res.render('home');
+});
+
+export default router;
+>>>>>>> 4135bb5a8c56d7995fe87ed31a591d090de8b26d

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4135bb5a8c56d7995fe87ed31a591d090de8b26d
 # Node
 node_modules/
 .env
@@ -11,4 +15,12 @@ pnpm-debug.log*
 
 # Frontend Vite
 front/node_modules/
+<<<<<<< HEAD
 front/dist/
+=======
+front/dist/
+=======
+node_modules/
+.env
+>>>>>>> 88dd525ca43d4d3814aeb723f7cb9adf1cce1460
+>>>>>>> 4135bb5a8c56d7995fe87ed31a591d090de8b26d
