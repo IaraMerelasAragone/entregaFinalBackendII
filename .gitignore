@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Node
 node_modules/
 .env
@@ -12,3 +13,7 @@ pnpm-debug.log*
 # Frontend Vite
 front/node_modules/
 front/dist/
+=======
+node_modules/
+.env
+>>>>>>> 88dd525ca43d4d3814aeb723f7cb9adf1cce1460
