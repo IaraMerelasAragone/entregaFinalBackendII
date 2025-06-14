@@ -1,0 +1,11 @@
+<h2>Perfil del Usuario</h2>
+
+<ul>
+    <li><strong>Nombre:</strong> {{user.first_name}} {{user.last_name}}</li>
+    <li><strong>Email:</strong> {{user.email}}</li>
+    <li><strong>Edad:</strong> {{user.age}}</li>
+    <li><strong>Rol:</strong> {{user.role}}</li>
+    {{#if user.cart}}
+    <li><strong>Carrito ID:</strong> {{user.cart}}</li>
+    {{/if}}
+</ul>
